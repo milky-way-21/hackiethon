@@ -314,7 +314,6 @@ label {
   margin-right: 20px;
   font-size: 30px;
   text-align: center;
-  border: 1px solid black;
 }
 
 .container:hover .overlay {
