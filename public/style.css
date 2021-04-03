@@ -239,17 +239,17 @@ label {
   display: inline-block;
 }
 
-.link.active {
-  color: #525252;
-  text-decoration: none;
-}
-
 .link:active {
   color: #525252;
   text-decoration: none;
 }
 
 .link:visited {
+  color: #525252;
+  text-decoration: none;
+}
+
+.link {
   color: #525252;
   text-decoration: none;
 }
