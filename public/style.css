@@ -39,7 +39,7 @@
   padding: 12px 15px;
   display: block;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 30px;
   color: #525252;
   text-decoration: none;
 }
@@ -92,7 +92,16 @@
   border-radius: 10px;
   padding-left: 10px;
   padding-top: 5px;
+}
 
+.search-input {
+  border-radius: 30px;
+  background-color: #DCDCDC;
+  border: none;
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  color: #525252;
 }
 
 .form {
