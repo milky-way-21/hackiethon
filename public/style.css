@@ -69,7 +69,7 @@
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   color: #525252;
-  height: 600px;
+  height: auto;
   width: 600px;
   margin-right: auto;
   margin-left: auto;
@@ -98,7 +98,7 @@ label {
   width: 100px;
 }
 
-button {
+.button1 {
   margin-top: 20px;
   border-radius: 30px;
   background-color: #7ac1c4;
@@ -110,4 +110,85 @@ button {
 
 .error {
   color: #b20000;
+}
+
+#title {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  color: #525252;
+  text-align: center;
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+
+.todo {
+  padding-bottom: 10px;
+  display: block;
+}
+
+.title-input {
+  background-color: none;
+  border: none;
+  height: 30px;
+  width: 70%;
+  padding-bottom: 10px;
+}
+
+.notes-input {
+  color:#808080;
+  background-color: none;
+  border: none;
+  height: 30px;
+  width: 56%;
+  resize: none;
+  font-family: Helvetica, sans-serif;
+}
+
+.todo-list {
+ margin: auto;
+ text-align: center;
+ width: 600px;
+ flex-direction: column;
+ align-items: center;
+ padding: 5px;
+}
+
+.todo-item {
+ display: flex;
+ padding: 5px 20px 0px;
+ align-items: center;
+ font-size: 15px;
+ justify-content: flex-start;
+ text-align: left;
+ margin-bottom: 30px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.todo-writing {
+  padding-left: 30px;
+}
+
+.heading {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #525252;
+}
+
+.notes {
+  font-family: Helvetica, sans-serif;
+  font-size:15px;
+  color: #525252;
+}
+
+.button2 {
+  margin-top: 20px;
+  border-radius: 30px;
+  border-color: #525252;
+  border-width: thin;
+  height: 25px;
+  width: 80px;
+  color: #525252;
 }
