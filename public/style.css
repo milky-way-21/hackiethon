@@ -102,17 +102,16 @@
 .form-group {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding-bottom: 10px;
 }
 
 label {
-  float:left;
   padding-right: 15px;
   text-align: right;
   margin-right:15px;
-  width: 100px;
+  width: 270px;
 }
 
 .button1 {
@@ -156,6 +155,8 @@ label {
 .todo {
   padding-bottom: 10px;
   display: block;
+  background-color: white;
+
 }
 
 .title-input {
@@ -164,6 +165,8 @@ label {
   height: 30px;
   width: 70%;
   padding-bottom: 10px;
+  background-color: white;
+
 }
 
 .notes-input {
@@ -174,15 +177,20 @@ label {
   width: 56%;
   resize: none;
   font-family: Helvetica, sans-serif;
+  background-color: white;
+
 }
 
 .todo-list {
  margin: auto;
  text-align: center;
- width: 600px;
+ width: inherit;
  flex-direction: column;
  align-items: center;
  padding: 5px;
+ border-radius: 30px;
+ /* border: 1px solid black; */
+ background-color: white;
 }
 
 .todo-item {
@@ -195,11 +203,13 @@ label {
  margin-bottom: 20px;
  margin-left: 20px;
  margin-right: 20px;
+ background-color: white;
 }
 
 .todo-writing {
   padding-left: 30px;
   width: 100%;
+  background-color: white;
 }
 
 .heading {
@@ -209,6 +219,7 @@ label {
   color: #525252;
   width: 85%;
   display: inline-block;
+  background-color: white;
 }
 
 .notes {
@@ -216,6 +227,7 @@ label {
   font-size:15px;
   color: #525252;
   width: 100%;
+  background-color: white;
 }
 
 .button2 {
@@ -226,6 +238,8 @@ label {
   height: 25px;
   width: 80px;
   color: #525252;
+  background-color: white;
+
 }
 
 .button3 {
@@ -237,6 +251,8 @@ label {
   color: #525252;
   border: none;
   display: inline-block;
+  background-color: white;
+
 }
 
 .link:active {
@@ -252,4 +268,47 @@ label {
 .link {
   color: #525252;
   text-decoration: none;
+}
+
+
+.grid-container {
+  padding-top: 50px;
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto auto;
+  padding: auto;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #525252;
+  font-weight: lighter;
+  background-color: white;
 }
