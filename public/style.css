@@ -82,6 +82,20 @@
   padding-left: 10px;
 }
 
+.input-textarea {
+  background-color: #DCDCDC;
+  border: none;
+  height: auto;
+  width: 30%;
+  resize: none;
+  font-family: Helvetica, sans-serif;
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+
+}
+
 .form {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
@@ -136,8 +150,6 @@ label {
   background-color: #a2c1c3;
 }
 
-
-
 .error {
   color: #b20000;
 }
@@ -160,13 +172,11 @@ label {
 }
 
 .title-input {
-  background-color: none;
   border: none;
   height: 30px;
   width: 70%;
   padding-bottom: 10px;
   background-color: white;
-
 }
 
 .notes-input {
@@ -178,7 +188,6 @@ label {
   resize: none;
   font-family: Helvetica, sans-serif;
   background-color: white;
-
 }
 
 .todo-list {
@@ -239,7 +248,6 @@ label {
   width: 80px;
   color: #525252;
   background-color: white;
-
 }
 
 .button3 {
