@@ -108,6 +108,20 @@ label {
   width: 100px;
   color: white;
 }
+.button1.active {
+  color: white;
+  background-color: #7ac1c4;
+}
+.button1:hover {
+  background-color: #b4d7d9
+}
+
+.button1:active {
+  color: white;
+  background-color: #a2c1c3;
+}
+
+
 
 .error {
   color: #b20000;
@@ -162,7 +176,7 @@ label {
  font-size: 15px;
  justify-content: flex-start;
  text-align: left;
- margin-bottom: 30px;
+ margin-bottom: 20px;
  margin-left: 20px;
  margin-right: 20px;
 }
