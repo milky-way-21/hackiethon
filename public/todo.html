@@ -9,10 +9,12 @@
 </head>
 <ul class='nav'>
   <li><a class='active' href="todo.html">Home</a></li>
-  <li><a href="index.html">Sign Out</a></li>
+  <div class='sign-out'>
+    <li class='user'>Currently logged in as {Name}</li>
+    <li><a href="index.html">Sign Out</a></li>
+  </div>
 </ul>
 
-<br>
 <header id=name>To Do</header>
 <body>
   <div id=title></div>
@@ -30,15 +32,17 @@
     <div class ='todo-item'>
       <input class='checkbox' type="checkbox"/>
       <div class='todo-writing'>
-        <h2 class='heading'>hi</h2>
-        <p class='notes'>more info</p>
+        <h2 class='heading' contentEditable="true">hi</h2>
+        <button class='button4'>x</button>
+        <p class='notes' contentEditable="true">more info</p>
       </div>
     </div>
     <div class ='todo-item'>
       <input class='checkbox' type="checkbox"/>
       <div class='todo-writing'>
-        <h2 class='heading'>read</h2>
-        <p class='notes'>more info</p>
+        <h2 class='heading' contentEditable="true">read</h2>
+        <button class='button4'>x</button>
+        <p class='notes' contentEditable="true">more info</p>
       </div>
     </div>
   </div>
