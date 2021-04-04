@@ -369,9 +369,16 @@ label {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
+  padding-right: 10px;
   background-color: transparent;
 }
 
+.feed-heading {
+  display: flex;
+  justify-content:flex-end;
+  width: 205px;
+  margin-left: 0;
+}
 .notes {
   font-family: "Roboto";
   font-size:15px;
@@ -587,7 +594,7 @@ h3 {
   width: 250px;
   overflow: auto;
   z-index: 1;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -602,3 +609,41 @@ h3 {
 
 .show {display: block;}
 .unshow {display: none;}
+
+
+
+
+/* main icon */
+._profile {
+	height: 1.4em; /* height == width */
+	width: 1.4em;
+	border: 1px solid #525252;
+	border-radius: 50%;
+	overflow: hidden;
+  background-color: #525252;
+}
+/* profile head */
+._head {
+	background: white;
+	border-radius: 100%;
+	width: 45%;
+	height: 45%;
+	margin: 15% auto 5%;
+}
+/* profile body */
+._body {
+	background: white;
+	width: 65%;
+	height: 40%;
+	margin: auto;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+.button5 {
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 12px;
+}

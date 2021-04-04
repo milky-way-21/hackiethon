@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <ul class='nav'>
   <!-- <li><a class='active' href="todo.html">Home</a></li> -->
   <!-- <li><input type="text" class='search-input' placeholder="Search for friends" autofocus></li> -->
-  <li>
+  <div class='sign-out'>
     <div class="dropdown">
         <input
           onclick="myFunction()"
@@ -28,14 +29,26 @@
         <a href="user.html">Ray S</a>
       </div>
     </div>
-  </li>
-  <div class='sign-out'>
-    <li class='user'>Currently logged in as {Name}</li>
-    <li><a href="index.html">Sign Out</a></li>
+    <li class='user'>Jane Do</li>
+    <button class='button5'>
+      <a href="profile.html">
+        <div class='_profile'>
+          <div class='_head'></div>
+          <div class='_body'></div>
+        </div>
+      </a>
+    </button>
+    <button class='button5'>
+      <a href="index.html">
+        <i class="fa fa-sign-out"
+          style="font-size: 20px;
+                color: #525252;
+                background-color: white;"
+          aria-hidden="true"></i>
+      </a>
+    </button>
   </div>
 </ul>
-
-
 
 <script>
 /* When the user clicks on the button,
@@ -137,7 +150,12 @@ function filterFunction() {
           <div class='feed-item'>
             <img class='profile-picture' src='lisa.jpg' alt="Profile picture" />
             <div class='feed-writing'>
-              <h2 class='heading1'>Kelly P</h2>
+              <div class='feed-heading'>
+                <h2 class='heading1'>Kelly P</h2>
+                <i class="fa fa-heart" style="font-size:15px;
+                color:pink;
+                background-color:transparent;"></i>
+              </div>
               <div class='task-item'>
                 <div class="check">
                 <p class='notes'></div>Finish workout</p>
@@ -147,7 +165,12 @@ function filterFunction() {
           <div class='feed-item'>
             <img class='profile-picture' src='lisa.jpg' alt="Profile picture" />
             <div class='feed-writing'>
-              <h2 class='heading1'>Hailey O</h2>
+              <div class='feed-heading'>
+                <h2 class='heading1'>Hailey O</h2>
+                <i class="fa fa-heart" style="font-size:15px;
+                color:pink;
+                background-color:transparent;"></i>
+              </div>
               <div class='task-item'>
                 <div class="check">
                 <p class='notes'></div>Do research for assignment</p>
