@@ -391,6 +391,7 @@ label {
   background-color: white;
   border-radius: 30px;
   overflow: auto;
+  overflow-x: hidden;
   height: 500px;
 }
 
@@ -437,6 +438,7 @@ label {
  /* border: 1px solid black; */
  background-color: white;
   overflow: auto;
+  overflow-x: hidden;
   height: 500px;
 }
 
