@@ -72,6 +72,27 @@
   text-align:center;
 }
 
+.error-middle {
+  text-align: middle;
+  padding-top: 110px;
+}
+
+.error-fit {
+  padding-top: 130px;
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto;
+  padding: auto;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.error-para {
+  text-align: left;
+  padding-right: 50px;
+}
+
 .input {
   border-radius: 30px;
   background-color: #DCDCDC;
@@ -150,8 +171,10 @@ label {
   background-color: #7ac1c4;
   border: none;
   height: 35px;
-  width: 100px;
+  width: auto;
   color: white;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .button1.active {
   color: white;
@@ -294,6 +317,12 @@ label {
   text-decoration: none;
 }
 
+.link-normal {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
 
 .grid-container {
   padding-top: 50px;
@@ -336,6 +365,27 @@ h3 {
   background-color: white;
 }
 
+.error-pic {
+  width: 500px;
+  padding-bottom: 30px;
+}
+
+#error-header {
+  font-size: 30px;
+  color: #525252;
+}
+
+#error-header2 {
+  font-size: 150px;
+  color: #525252;
+  margin-bottom: -30px;
+}
+
+#error-text {
+  font-size: 20px;
+  color: #525252;
+  margin-top: -20px;
+}
 
 #test {
     margin-top: 25px;
