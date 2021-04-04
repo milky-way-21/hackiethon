@@ -13,8 +13,6 @@
 </head>
 <ul class='nav'>
   <h1 class="name">SODO</h1>
-  <!-- <li><a class='active' href="todo.html">Home</a></li> -->
-  <!-- <li><input type="text" class='search-input' placeholder="Search for friends" autofocus></li> -->
   <div class='sign-out'>
     <div class="dropdown">
         <input
@@ -26,7 +24,7 @@
           autofocus
           onkeyup="filterFunction()"
         >
-      <div id="myDropdown" class="dropdown-content">
+      <div id="myDropdown" class="dropdown-content1">
         <a href="user.html">Kate P</a>
         <a href="user.html">Wesley D</a>
         <a href="user.html">Ray S</a>
@@ -41,26 +39,6 @@
         </div>
       </a>
     </button>
-
-
-    <!-- <div class="dropdown">
-        <input
-          onclick="myFunction()"
-          class='search-input'
-          id="myInput"
-          type="text"
-          placeholder="Search for friends"
-          autofocus
-          onkeyup="filterFunction()"
-        >
-      <div id="myDropdown" class="dropdown-content">
-        <a href="user.html">Kate P</a>
-        <a href="user.html">Wesley D</a>
-        <a href="user.html">Ray S</a>
-      </div>
-    </div> -->
-
-
 
     <button class='button5' onclick="myFunction2()">
       <i class="fa fa-bell"
@@ -98,38 +76,6 @@
     </button>
   </div>
 </ul>
-
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function myFunction2() {
-  document.getElementById("myDropdown2").classList.toggle("show");
-}
-
-function listDissapear() {
-  document.getElementById("myDropdown").classList.toggle("unshow");
-}
-
-function filterFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  div = document.getElementById("myDropdown");
-  a = div.getElementsByTagName("a");
-  for (i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-</script>
 
 <div class='grid-container' id='test'>
     <div class='container'>
@@ -172,9 +118,19 @@ function filterFunction() {
             <div class='feed-writing'>
               <div class='feed-heading'>
                 <h2 class='heading1'>Kelly P</h2>
-                <i class="fa fa-heart" style="font-size:15px;
+                <div >
+                  <img
+                    src="heart.png"
+                    id="heartChange"
+                    onClick="this.src='heart2.png'"
+                    style="height:15px; width: 15px; background-color:transparent;"
+                    src="">
+                <!-- <i class="fa fa-heart"
+                id=heart
+                style="font-size:15px;
                 color:pink;
-                background-color:transparent;"></i>
+                background-color:transparent;"></i> -->
+                </div>
               </div>
               <div class='task-item'>
                 <div class="check">
@@ -187,9 +143,14 @@ function filterFunction() {
             <div class='feed-writing'>
               <div class='feed-heading'>
                 <h2 class='heading1'>Hailey O</h2>
-                <i class="fa fa-heart" style="font-size:15px;
-                color:pink;
-                background-color:transparent;"></i>
+                <div >
+                  <img
+                    src="heart.png"
+                    id="heartChange"
+                    onClick="this.src='heart2.png'"
+                    style="height:15px; width: 15px; background-color:transparent;"
+                    src="">
+                </div>
               </div>
               <div class='task-item'>
                 <div class="check">
@@ -200,23 +161,50 @@ function filterFunction() {
         </div>
       </div>
     </div>
-    <!-- <div class='container'>
-      <div class='grid-item'>
-        <div class='notifications'>
-          <h3>Notifications</h3>
-          <div class='notification-item'>
-            <p class='notes'>Steven D completed preparing for his presentation</p>
-            <br/>
-            <p class='notif-text'>{timestamp}</p>
-          </div>
-          <div class='notification-item'>
-            <p class='notes'>Steven D completed preparing for his presentation</p>
-            <br/>
-            <p class='notif-text'>{timestamp}</p>
-          </div>
-        </div>
-    </div>
-  </div> -->
 </div>
+
+
+//
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+function listDissapear() {
+  document.getElementById("myDropdown").classList.toggle("unshow");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+//
+// function changeColour() {
+//   if (document.getElementById("heartChange").src == "heart.png") {
+//       document.getElementById("heartChange").src = "heart2.png";
+//   } else {
+//       document.getElementById("heartChange").src = "heart.png";
+//   }
+// }
+</script>
+
+
 
 </html>
