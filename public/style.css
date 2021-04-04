@@ -504,6 +504,7 @@ h3 {
 #error-header {
   font-size: 30px;
   color: #525252;
+  font-weight: 300;
 }
 
 #error-header2 {
@@ -516,6 +517,7 @@ h3 {
   font-size: 20px;
   color: #525252;
   margin-top: -20px;
+  font-weight: 200;
 }
 
 #test {
