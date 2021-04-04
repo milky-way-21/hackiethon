@@ -11,71 +11,71 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="todo.js"></script>
 </head>
-<ul class='nav'>
-  <h1 class="name">SODO</h1>
-  <div class='sign-out'>
-    <div class="dropdown">
-        <input
-          onclick="myFunction()"
-          class='search-input'
-          id="myInput"
-          type="text"
-          placeholder="Search for friends"
-          autofocus
-          onkeyup="filterFunction()"
-        >
-      <div id="myDropdown" class="dropdown-content1">
-        <a href="user.html">Kate P</a>
-        <a href="user.html">Wesley D</a>
-        <a href="user.html">Ray S</a>
+
+<br/>
+<h1 class="name">SODO</h1>
+<div class='sign-out'>
+  <div class="dropdown">
+      <input
+        onclick="myFunction()"
+        class='search-input'
+        id="myInput"
+        type="text"
+        placeholder="Search for friends"
+        autofocus
+        onkeyup="filterFunction()"
+      >
+    <div id="myDropdown" class="dropdown-content1">
+      <a href="user.html">Kate P</a>
+      <a href="user.html">Wesley D</a>
+      <a href="user.html">Ray S</a>
+    </div>
+
+  </div>
+  <li class='user'>Jane Do</li>
+  <button class='button5'>
+    <a href="profile.html">
+      <div class='_profile'>
+        <div class='_head'></div>
+        <div class='_body'></div>
+      </div>
+    </a>
+  </button>
+  <button class='button5' onclick="myFunction2()">
+    <i class="fa fa-bell"
+    aria-hidden="true"
+    style="background-color: transparent;
+          font-size: 20px;
+          color: #525252;"></i>
+    <div id="myDropdown2" class="dropdown-content">
+      <div class='notification-item'>
+        <div class="clearfix">
+          <img class="img2"  src='lisa.jpg' alt="Profile picture">
+            Steven D completed preparing for his presentation
+          </div>
+        <br/>
+        <p class='notif-text'>{timestamp}</p>
+      </div>
+      <div class='notification-item'>
+        <div class="clearfix">
+          <img class="img2"  src='lisa.jpg' alt="Profile picture">
+            Steven D completed preparing for his presentation
+          </div>
+        <br/>
+        <p class='notif-text'>{timestamp}</p>
       </div>
     </div>
-    <li class='user'>Jane Do</li>
-    <button class='button5'>
-      <a href="profile.html">
-        <div class='_profile'>
-          <div class='_head'></div>
-          <div class='_body'></div>
-        </div>
-      </a>
-    </button>
-
-    <button class='button5' onclick="myFunction2()">
-      <i class="fa fa-bell"
-      aria-hidden="true"
-      style="background-color: transparent;
-            font-size: 20px;
-            color: #525252;"></i>
-      <div id="myDropdown2" class="dropdown-content">
-        <div class='notification-item'>
-          <div class="clearfix">
-            <img class="img2"  src='lisa.jpg' alt="Profile picture">
-              Steven D completed preparing for his presentation
-            </div>
-          <br/>
-          <p class='notif-text'>{timestamp}</p>
-        </div>
-        <div class='notification-item'>
-          <div class="clearfix">
-            <img class="img2"  src='lisa.jpg' alt="Profile picture">
-              Steven D completed preparing for his presentation
-            </div>
-          <br/>
-          <p class='notif-text'>{timestamp}</p>
-        </div>
-      </div>
-    </button>
-    <button class='button5'>
-      <a href="index.html">
-        <i class="fa fa-sign-out"
-          style="font-size: 20px;
-                color: #525252;
-                background-color: white;"
-          aria-hidden="true"></i>
-      </a>
-    </button>
-  </div>
-</ul>
+  </button>
+  <button class='button5'>
+    <a href="index.html">
+      <i class="fa fa-sign-out"
+        style="font-size: 20px;
+              color: #525252;
+              background-color: white;"
+        aria-hidden="true"></i>
+    </a>
+  </button>
+</div>
 
 <div class='grid-container' id='test'>
     <div class='container'>
