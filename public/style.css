@@ -75,16 +75,15 @@ body {
   line-height: 24px;
 }
 
-.home-rectangle button {
+.home-rectangle button, .button {
   margin-top: 200px;
   color: white;
   font-size: 16px;
-  border: none;
   border-radius: 20px;
-  padding: 20px;
+  padding: 15px;
   margin: 12px;
   margin-top: 30px;
-  width: 150px;
+  width: 130px;
   font-weight: 300;
 }
 
@@ -100,7 +99,7 @@ body {
   font-weight: 300;
 }
 
-#log-in {
+#log-in, #btn-hollow {
   background-color: transparent;
   border: 2px solid #0055bf;
 }
@@ -109,17 +108,21 @@ body {
   color: #0055bf;
 }
 
-#sign-up {
+#sign-up, .btn-fill {
   background-color: #0055bf;
+  color: white;
+  border: none;
 }
 
 #sign-up a {
   color: white;
 }
 
-* {
-  background-color: #E1E9EE;
-  font-family: 'Roboto', sans-serif;
+.form .btn-fill {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .h2-strong {
