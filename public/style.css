@@ -355,7 +355,10 @@ label {
   padding: 5px;
   background-color: white;
   border-radius: 30px;
+  overflow: auto;
+  height: 500px;
 }
+
 
 .notifications {
   margin: auto;
@@ -373,12 +376,12 @@ label {
   padding: 15px 20px 0px;
   font-size: 15px;
   text-align: left;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
   background-color: white;
   width: auto;
-  border-top: 0.5px solid #DCDCDC;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  border: 0.5px solid #808080;
 }
 
 .notif-text {
@@ -398,6 +401,8 @@ label {
  border-radius: 30px;
  /* border: 1px solid black; */
  background-color: white;
+  overflow: auto;
+  height: 500px;
 }
 
 .todo-item {
@@ -720,9 +725,12 @@ h3 {
   display: none;
   position: absolute;
   width: 250px;
+  height: 200px;
   overflow: auto;
   z-index: 1;
   border-radius: 10px;
+  margin-left: -150px;
+  margin-top: 20px;
 }
 
 .dropdown-content a {
