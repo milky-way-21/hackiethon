@@ -743,12 +743,12 @@ h3 {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: auto;
+  width: 350px;
   height: 500px;
   overflow: auto;
   z-index: 1;
   border-radius: 10px;
-  margin-left: -200px;
+  margin-left: -265px;
   margin-top: 20px;
 }
 
