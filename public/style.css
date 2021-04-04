@@ -606,7 +606,6 @@ div {
   width: auto;
   height: auto;
   border-radius: 30px;
-
   font-size: 30px;
   text-align: center;
   background-color: white;
@@ -615,7 +614,7 @@ div {
 .container {
   position: relative;
   width: 100%;
-  background-color: white;
+  background-color: transparent;
 }
 
 
