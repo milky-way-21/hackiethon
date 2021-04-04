@@ -5,62 +5,87 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100&display=swap" rel="stylesheet">
 </head>
 <ul class='nav'>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="login.html">Login</a></li>
-  <li><a href="signUp.html">Sign Up</a></li>
-  <li><a class="active" href="profile.html">Profile</a></li>
-</ul>
-<br/>
-<body>
-  <h1 class="name">SoDo</h1> 
-  <div class="profile-rectangle">
-    <p class="profile-name">Name Here</p>
-    <p class="profile-username">@username</p>
-    <div class="profile-info">
-      <img class="profile-profile-pic" src="">
-      <p class="bio">Bio here.</p>
-      <button type="button" class="followBtn">Follow</button>
-    </div>
-    <div class="profile-timeline">
-      <h4>Timeline</h4>
-
-    </div>
-
-  </div>  
-  <!--
-  <div class="post" class="jane-math">
-    <a class="profile-icon-link"><img class="profile-icon" src=""></a>
-    <p class="post-title"><strong>Jane</strong>has completed<strong>Math Homework</strong></p>
-    <p class="time">1 minute ago</p>
-    <p>After a lot of work I finally learnt the Pythagoraes Theorem!</p>
-    <button type="button" class="show-more">Show more</button>
-    <button type="button" class="comments">Comments</button>
-    <button type="button" class="like">
-      <img>
-      <p class="interact-btns">Like</p>
-    </button>
-    <button type="button" class="comment">
-      <img>
-      <p class="interact-btns">Comment</p>
-    </button>
-    <div class="comments">
-      <div class="comments-instance">
-        <a class="profile-icon-comments-link"><img class="profile-icon-comments"></a>
-        <p class="comments-title">Kelly</p>
-        <p>Nice!</p>
-        
+  <!-- <li><a class='active' href="todo.html">Home</a></li> -->
+  <!-- <li><input type="text" class='search-input' placeholder="Search for friends" autofocus></li> -->
+  <div class='sign-out'>
+    <div class="dropdown">
+        <input
+          onclick="myFunction()"
+          class='search-input'
+          id="myInput"
+          type="text"
+          placeholder="Search for friends"
+          autofocus
+          onkeyup="filterFunction()"
+        >
+      <div id="myDropdown" class="dropdown-content">
+        <a href="user.html">Kate P</a>
+        <a href="user.html">Wesley D</a>
+        <a href="user.html">Ray S</a>
       </div>
     </div>
-    -->
+    <li class='user'>Jane Do</li>
+    <button class='button5'>
+      <a href="profile.html">
+        <div class='_profile'>
+          <div class='_head'></div>
+          <div class='_body'></div>
+        </div>
+      </a>
+    </button>
+    <button class='button5'>
+      <a href="index.html">
+        <i class="fa fa-sign-out"
+          style="font-size: 20px;
+                color: #525252;
+                background-color: white;"
+          aria-hidden="true"></i>
+      </a>
+    </button>
+  </div>
+</ul>
+<br/>
 
-    
+<div class='grid-container1' id='test'>
+  <div class='container1'>
+    <div class='profile'>
+      <p class="profile-name">Jane Do</p>
+      <p class="profile-username">@janedo</p>
+      <div class="profile-info">
+        <div class="image-cropper">
+          <img src="lisa.jpg" alt="profile picture" class="profile-pic">
+        </div>
+        <p class="bio">Bio</p>
+        <textarea class='profile-textarea' rows="4"></textarea>
+        <br />
+        <button class='button1'>Follow</button>
+      </div>
+    </div>
+
   </div>
 
-  
+  <div class='container1'>
+    <div class='timeline'>
+      <p class="profile-name">Timeline</p>
+      <div class='notifications'>
+        <div class='notification-item'>
+          <p class='notes'>You completed preparing for presentation</p>
+          <br/>
+          <p class='notif-text'>{timestamp}</p>
+        </div>
+        <div class='notification-item'>
+          <p class='notes'>You deleted the task 'Finish writing essay'</p>
+          <br/>
+          <p class='notif-text'>{timestamp}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-</body>
 </html>
