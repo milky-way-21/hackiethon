@@ -1,15 +1,3 @@
-#name {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 75px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  color: #525252;
-  background-color: transparent;
-  padding-top: 20px;
-}
-
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -52,7 +40,7 @@ body {
   text-align: center;
   border-radius: 30px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 140px;
   width: 35%;
   padding-left: 100px;
   padding-right: 100px;
@@ -128,11 +116,15 @@ body {
   justify-content:flex-end;
   align-items: center;
   color: #525252;
+  padding-right: 20px;
 }
 
 .user {
   height: auto;
+  list-style: none;
+  margin-left: 10px;
 }
+
 .nav li {
   float: left;
   padding: 10px;
@@ -287,7 +279,7 @@ label {
   margin-left: 0px;
 
   border-radius: 30px;
-  background-color: #c0d1dc;
+  background-color: #e1e9ee;
   border: none;
   height: 35px;
   width: auto;
@@ -362,6 +354,7 @@ label {
 
 .notifications {
   margin: auto;
+  margin-top: 20px;
   text-align: center;
   width: inherit;
   flex-direction: column;
@@ -377,7 +370,6 @@ label {
   font-size: 15px;
   text-align: left;
   background-color: white;
-  width: 240px;
   border-radius: 10px;
   padding-bottom: 10px;
   margin-bottom: 5px;
@@ -590,16 +582,23 @@ div {
 }
 
 .grid-container1 {
-  padding-top: 5px;
+  padding: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 60px;
+  margin-top: 39px;
+  margin-left: 20px;
+  margin-right: 18px;
   display: grid;
   grid-column-gap: 0px;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% auto;
+  grid-template-rows: 140px auto;
   padding: auto;
   align-items: top;
-  justify-content:flex-start;
-  width: 90%;
+  /* justify-content: flex-start; */
+  /* width: 90%; */
   border-radius: 30px;
-  background-color: white
+  background-color: white;
 }
 
 .container1 {
@@ -607,6 +606,11 @@ div {
   width: 100%;
   background-color: white;
   border-radius: 30px;
+  padding-top: 20px;
+}
+
+.container2 {
+  grid-area: 2/2;
 }
 
 .grid-item {
@@ -830,8 +834,10 @@ h3 {
 }
 
 .profile-info {
-  text-align: left;
+  text-align: center;
+  grid-area: 2/1;
   padding-left: 20px;
+  padding-top: 30px;
 }
 
 .profile-timeline {
@@ -850,17 +856,19 @@ h3 {
 .profile-username {
   text-align: left;
   color: #525252;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 20px;
-  padding-bottom: 5px;
-  width: 100%;
+  margin-right: 40px;
+  padding-bottom: 20px;
   border-bottom: 0.5px solid #DCDCDC;
 
 }
 
 .profile {
-  width: 400px;
+  grid-area: 1/1/1/2;
   display:block;
+  padding: 20px;
+  width: 197%;
 }
 
 .image-cropper {
@@ -875,9 +883,8 @@ h3 {
 .profile-pic {
   display: inline;
   margin: 0 auto;
-  margin-left: -25%; /*-- centers the image --*/
-  height: 100%;
-  width: auto;
+  /*margin-left: -25%; /*-- centers the image --*/
+  width: 100%;
 }
 
 .profile-bio {
@@ -892,8 +899,17 @@ h3 {
   margin-top: 0px;
 }
 
+
+.timeline-name {
+  font-size: 36px;
+  padding-left: 0px;
+}
+
 .timeline {
   border-left: 0.5px solid #DCDCDC;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 60px;
 }
 
 
