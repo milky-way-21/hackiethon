@@ -114,6 +114,11 @@ body {
   border: none;
 }
 
+.btn-fill a {
+  color: white;
+  text-decoration: none;
+}
+
 #sign-up a {
   color: white;
 }
