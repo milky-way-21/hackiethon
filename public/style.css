@@ -11,6 +11,91 @@
 }
 
 * {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  color: #0055bf;
+  background-color: white;
+  padding: 17px;
+  border-radius: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.h2-strong {
+  font-weight: 300;
+  color:  #0055bf;
+}
+
+body {
+  background-color: #e1e9ee;
+}
+
+.single-div1 {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera < 12.1 */
+          animation: fadein 1s;
+}
+
+.home-rectangle {
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 150px;
+  width: 32%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  display: block;
+}
+
+.home-rectangle p {
+  margin-top: 55px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.home-rectangle button {
+  margin-top: 200px;
+  color: white;
+  font-size: 21px;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 12px;
+  margin-top: 30px;
+  width: 150px;
+  font-weight: 300;
+}
+
+#log-in {
+  background-color: transparent;
+  border: 2px solid #0055bf;
+  color: #0055bf;
+}
+
+#sign-up {
+  background-color: #0055bf;
+}
+
+* {
   background-color: #E1E9EE;
   font-family: 'Roboto', sans-serif;
 }
@@ -582,16 +667,7 @@ h3 {
   font-weight: 200;
 }
 
-#test {
-    margin-top: 25px;
-    font-size: 21px;
-    text-align: center;
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
-}
+
 
 @keyframes fadein {
     from { opacity: 0; }
