@@ -526,8 +526,8 @@ label {
 
 .feed-heading {
   display: flex;
-  justify-content:flex-end;
-  width: 205px;
+  justify-content:flex-start;
+  width: 470px;
   margin-left: 0;
 }
 .notes {
@@ -672,7 +672,7 @@ div {
 
 .container {
   position: relative;
-  width: 100%;
+  width: 600px;
   background-color: transparent;
 }
 
