@@ -576,7 +576,9 @@ label {
 
 .link {
   background-color: transparent;
+  text-decoration: none;
 }
+
 .link:active {
   color: #525252;
   text-decoration: none;
@@ -587,10 +589,6 @@ label {
   text-decoration: none;
 }
 
-.link {
-  color: #525252;
-  text-decoration: none;
-}
 
 .link-normal {
   background-color: transparent;
