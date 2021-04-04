@@ -931,6 +931,12 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.form .image-cropper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .profile-pic {
   display: inline;
   margin: 0 auto;
