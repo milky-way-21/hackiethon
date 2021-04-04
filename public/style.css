@@ -73,11 +73,18 @@ body {
 #log-in, .btn-hollow {
   background-color: transparent;
   border: 2px solid #0055bf;
+}
+
+#log-in a {
   color: #0055bf;
 }
 
 #sign-up, .btn-fill {
   background-color: #0055bf;
+  color: white;
+}
+
+#sign-up a {
   color: white;
 }
 
