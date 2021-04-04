@@ -959,3 +959,10 @@ h3 {
   padding-left: 40px;
   padding-bottom: 30px
 }
+
+.empty-message {
+  font-size: 20px;
+  color: #858585;
+  font-weight: lighter;
+  display: none;
+}
