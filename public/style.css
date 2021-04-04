@@ -377,7 +377,7 @@ label {
   font-size: 15px;
   text-align: left;
   background-color: white;
-  width: auto;
+  width: 240px;
   border-radius: 10px;
   padding-bottom: 10px;
   margin-bottom: 5px;
@@ -451,6 +451,21 @@ label {
   width: auto;
   height: 50px;
   border-radius: 30%;
+  vertical-align:middle;
+}
+
+.img2 {
+  width: auto;
+  height: 50px;
+  border-radius: 30%;
+  float: left;
+  margin-right: 8px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .todo-writing {
@@ -724,12 +739,12 @@ h3 {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 250px;
-  height: 200px;
+  width: auto;
+  height: 500px;
   overflow: auto;
   z-index: 1;
   border-radius: 10px;
-  margin-left: -150px;
+  margin-left: -200px;
   margin-top: 20px;
 }
 
