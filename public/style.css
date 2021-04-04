@@ -933,8 +933,8 @@ h3 {
 .profile-pic {
   display: inline;
   margin: 0 auto;
-  /*margin-left: -25%; /*-- centers the image --*/
   width: 100%;
+  height: 100%;
 }
 
 .profile-bio {
