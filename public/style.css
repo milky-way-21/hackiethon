@@ -435,7 +435,7 @@ label {
 }
 
 .task-item {
-  display: inline
+  display: inline;
   background-color: white;
 }
 
@@ -585,7 +585,7 @@ div {
   padding: 25px;
   padding-left: 35px;
   padding-right: 35px;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   margin-top: 39px;
   margin-left: 20px;
   margin-right: 18px;
@@ -719,7 +719,8 @@ h3 {
 }
 
 
-//////////////////////////////////////////
+
+
 .dropbtn {
   background-color: transparent;
   font-size: 16px;
@@ -909,7 +910,7 @@ h3 {
   border-left: 0.5px solid #DCDCDC;
   padding-right: 40px;
   padding-left: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 
