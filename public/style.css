@@ -607,14 +607,17 @@ div {
 .single-div {
   border-radius: 30px;
   background-color: white;
-  width: 40%;
+  width: 35%;
   margin: auto;
   padding-bottom: 50px;
   padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-top: 60px;
   display: block;
 
 }
+
 .grid-container {
   padding-top: 50px;
   display: grid;
