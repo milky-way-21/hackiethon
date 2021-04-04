@@ -571,7 +571,7 @@ div {
 
 }
 .grid-container {
-  padding-top: 5px;
+  padding-top: 50px;
   display: grid;
   grid-column-gap: 0px;
   grid-template-columns: auto auto auto;
@@ -744,12 +744,12 @@ h3 {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: auto;
+  width: 350px;
   height: 500px;
   overflow: auto;
   z-index: 1;
   border-radius: 10px;
-  margin-left: -200px;
+  margin-left: -265px;
   margin-top: 20px;
 }
 
