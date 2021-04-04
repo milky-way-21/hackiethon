@@ -1,3 +1,15 @@
+#name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #525252;
+  background-color: transparent;
+  padding-top: 20px;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -26,7 +38,7 @@ body {
   background-color: #e1e9ee;
 }
 
-.single-div {
+.single-div1 {
   margin-top: 25px;
   font-size: 21px;
   text-align: center;
@@ -80,6 +92,29 @@ body {
 
 #sign-up {
   background-color: #0055bf;
+}
+
+* {
+  background-color: #E1E9EE;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h2-strong {
+  background-color: transparent;
+}
+
+.home-text {
+  font-weight: 200;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sodo {
+  width: 4em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
@@ -249,6 +284,10 @@ label {
 
 .button1 {
   margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+
   border-radius: 30px;
   background-color: #c0d1dc;
   border: none;
@@ -512,7 +551,15 @@ div {
 
 }
 
+.single-div {
+  border-radius: 30px;
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 10px;
+  display: block;
 
+}
 .grid-container {
   padding-top: 5px;
   display: grid;
@@ -522,6 +569,26 @@ div {
   align-items: top;
   justify-items: center;
   justify-content: center;
+}
+
+.grid-container1 {
+  padding-top: 5px;
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto;
+  padding: auto;
+  align-items: top;
+  justify-content:flex-start;
+  width: 90%;
+  border-radius: 30px;
+  background-color: white
+}
+
+.container1 {
+  position:relative;
+  width: 100%;
+  background-color: white;
+  border-radius: 30px;
 }
 
 .grid-item {
@@ -535,10 +602,22 @@ div {
   background-color: white;
 }
 
+.grid-item1 {
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+
+  font-size: 30px;
+  text-align: center;
+  background-color: white;
+}
+
 .container {
   position: relative;
   width: 100%;
+  background-color: white;
 }
+
 
 h3 {
   font-family: "Roboto";
@@ -709,7 +788,8 @@ h3 {
 }
 
 .profile-info {
-  grid-area: 1/1;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .profile-timeline {
@@ -717,9 +797,60 @@ h3 {
 }
 
 .profile-name {
-  font-size: 30px;
+  font-size: 50px;
+  font-weight:250;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 3px;
 }
 
 .profile-username {
+  text-align: left;
   color: #525252;
+  margin-top: 0px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  width: 100%;
+  border-bottom: 0.5px solid #DCDCDC;
+
+}
+
+.profile {
+  width: 400px;
+  display:block;
+}
+
+.image-cropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; /*-- centers the image --*/
+  height: 100%;
+  width: auto;
+}
+
+.profile-textarea {
+  background-color: #DCDCDC;
+  border: none;
+  height: auto;
+  width: 90%;
+  resize: none;
+  font-family: "Roboto";
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-top: 0px;
+}
+
+.timeline {
+  border-left: 0.5px solid #DCDCDC;
 }
