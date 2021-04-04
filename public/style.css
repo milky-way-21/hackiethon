@@ -2,6 +2,17 @@
   font-family: 'Roboto', sans-serif;
 }
 
+#name {
+  background-color: transparent;
+  font-family: "Roboto";
+  font-size: 65px;
+  text-align: center;
+  color: #525252;
+  font-weight: 450;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -17,6 +28,13 @@ h1 {
   padding-right: 24px;
   border-radius: 20px;
 }
+
+h1 a {
+  color: #0055bf;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 
 .h3-strong {
   font-weight: 900;
@@ -57,20 +75,32 @@ body {
   line-height: 24px;
 }
 
-.home-rectangle button, .button {
+.home-rectangle button {
   margin-top: 200px;
   color: white;
   font-size: 16px;
   border: none;
   border-radius: 20px;
-  padding: 13px;
+  padding: 20px;
   margin: 12px;
   margin-top: 30px;
-  width: 130px;
+  width: 150px;
   font-weight: 300;
 }
 
-#log-in, .btn-hollow {
+.loginBtn {
+  margin-top: 200px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 5px;
+  width: 100px;
+  font-weight: 300;
+}
+
+#log-in {
   background-color: transparent;
   border: 2px solid #0055bf;
 }
@@ -79,16 +109,18 @@ body {
   color: #0055bf;
 }
 
-#sign-up, .btn-fill {
+#sign-up {
   background-color: #0055bf;
-  color: white;
 }
 
 #sign-up a {
   color: white;
 }
 
-
+* {
+  background-color: #E1E9EE;
+  font-family: 'Roboto', sans-serif;
+}
 
 .h2-strong {
   background-color: transparent;
@@ -567,12 +599,10 @@ div {
 .single-div {
   border-radius: 30px;
   background-color: white;
-  width: 35%;
+  width: 40%;
   margin: auto;
   padding-bottom: 50px;
   padding-top: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
   margin-top: 60px;
   display: block;
 
@@ -917,6 +947,5 @@ h3 {
   border-left: 0.5px solid #DCDCDC;
   padding-right: 40px;
   padding-left: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 30px
 }
-
