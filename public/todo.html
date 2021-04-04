@@ -9,13 +9,61 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100&display=swap" rel="stylesheet">
 </head>
 <ul class='nav'>
-  <li><a class='active' href="todo.html">Home</a></li>
-  <li><input type="text" class='search-input' placeholder="Search for friends" autofocus></li>
+  <!-- <li><a class='active' href="todo.html">Home</a></li> -->
+  <!-- <li><input type="text" class='search-input' placeholder="Search for friends" autofocus></li> -->
+  <li>
+    <div class="dropdown">
+        <input
+          onclick="myFunction()"
+          class='search-input'
+          id="myInput"
+          type="text"
+          placeholder="Search for friends"
+          autofocus
+          onkeyup="filterFunction()"
+        >
+      <div id="myDropdown" class="dropdown-content">
+        <a href="user.html">Kate P</a>
+        <a href="user.html">Wesley D</a>
+        <a href="user.html">Ray S</a>
+      </div>
+    </div>
+  </li>
   <div class='sign-out'>
     <li class='user'>Currently logged in as {Name}</li>
     <li><a href="index.html">Sign Out</a></li>
   </div>
 </ul>
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function listDissapear() {
+  document.getElementById("myDropdown").classList.toggle("unshow");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
 
 <!-- <header id=name>To Do</header>
 <body>
