@@ -1,5 +1,6 @@
 #name {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 75px;
   text-align: center;
   margin-top: 50px;
@@ -8,15 +9,14 @@
 }
 
 * {
-  background-color: #f1f1f1;
-  font-family: Helvetica, sans-serif;
+  background-color: #E1E9EE;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav {
   list-style-type: none;
   margin: 30px;
-  /*font-family: Garamond, serif;*/
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   font-size: 16px;
 }
 
@@ -46,19 +46,27 @@
 
 .nav li a.active {
   color: white;
-  background-color: #7ac1c4;
-}
-.nav li a:hover:not(.active) {
-  background-color: #b4d7d9
+  background-color: #c0d1dc;
 }
 
+.nav li a:hover {
+  background-color: #b0c5d2;
+  color: white;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #d1dde5;
+  color: white;
+
+}
+/*
 .nav li a:active {
   color: white;
   background-color: #7ac1c4;
-}
+} */
 
 #intro {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   font-size: 16px;
   color: #525252;
   text-align: center;
@@ -108,7 +116,7 @@
   height: auto;
   width: 30%;
   resize: none;
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   background-color: #DCDCDC;
   border-radius: 10px;
   padding-left: 10px;
@@ -126,7 +134,7 @@
 }
 
 .form {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   font-size: 16px;
   color: #525252;
   height: auto;
@@ -168,7 +176,7 @@ label {
 .button1 {
   margin-top: 20px;
   border-radius: 30px;
-  background-color: #7ac1c4;
+  background-color: #c0d1dc;
   border: none;
   height: 35px;
   width: auto;
@@ -176,17 +184,14 @@ label {
   padding-left: 15px;
   padding-right: 15px;
 }
-.button1.active {
-  color: white;
-  background-color: #7ac1c4;
-}
+
 .button1:hover {
-  background-color: #b4d7d9
+  background-color: #b0c5d2;
 }
 
 .button1:active {
   color: white;
-  background-color: #a2c1c3;
+  background-color: #d1dde5;
 }
 
 .error {
@@ -194,7 +199,7 @@ label {
 }
 
 #title {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   font-size: 25px;
   color: #525252;
   text-align: center;
@@ -261,7 +266,7 @@ label {
 }
 
 .heading {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   font-size: 15px;
   font-weight: bold;
   color: #525252;
@@ -271,7 +276,7 @@ label {
 }
 
 .notes {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   font-size:15px;
   color: #525252;
   width: 100%;
@@ -302,6 +307,9 @@ label {
 
 }
 
+.link {
+  background-color: transparent;
+}
 .link:active {
   color: #525252;
   text-decoration: none;
@@ -355,7 +363,7 @@ label {
 }
 
 h3 {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   font-size: 35px;
   text-align: center;
   margin-top: 50px;
