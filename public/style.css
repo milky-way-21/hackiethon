@@ -57,7 +57,7 @@ body {
   line-height: 24px;
 }
 
-.home-rectangle button {
+.home-rectangle button, .button {
   margin-top: 200px;
   color: white;
   font-size: 16px;
@@ -70,20 +70,18 @@ body {
   font-weight: 300;
 }
 
-#log-in {
+#log-in, .btn-hollow {
   background-color: transparent;
   border: 2px solid #0055bf;
   color: #0055bf;
 }
 
-#sign-up {
+#sign-up, .btn-fill {
   background-color: #0055bf;
+  color: white;
 }
 
-* {
-  background-color: #E1E9EE;
-  font-family: 'Roboto', sans-serif;
-}
+
 
 .h2-strong {
   background-color: transparent;
@@ -562,10 +560,12 @@ div {
 .single-div {
   border-radius: 30px;
   background-color: white;
-  width: 40%;
+  width: 35%;
   margin: auto;
   padding-bottom: 50px;
   padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-top: 60px;
   display: block;
 
