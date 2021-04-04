@@ -527,7 +527,7 @@ label {
 .feed-heading {
   display: flex;
   justify-content:flex-start;
-  width: 470px;
+  width: 230px;
   margin-left: 0;
 }
 .notes {
@@ -611,7 +611,7 @@ div {
   padding-top: 50px;
   display: grid;
   grid-column-gap: 0px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   padding: auto;
   align-items: top;
   justify-items: center;
@@ -676,6 +676,11 @@ div {
   background-color: transparent;
 }
 
+.container-feed {
+  position: relative;
+  width: 400px;
+  background-color: transparent;
+}
 
 h3 {
   font-family: "Roboto";
